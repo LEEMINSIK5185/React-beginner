@@ -1,9 +1,6 @@
-import { useState, useEffect } from "react";
-import Movie from "./components/Movie";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import Detail from "./routes/Detail";
-import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
